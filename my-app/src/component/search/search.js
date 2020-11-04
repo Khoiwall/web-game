@@ -8,7 +8,7 @@ const Search = () =>{
     return(
         <form action="/search" method="GET">
             <input type="text" name="NameGame" id ="NameGame" placeholder="Find Games" value={games} onChange={handleInputChange}/>
-            <button type="submit">tìm kiếm</button>
+            <button type="submit" className="none">tìm kiếm</button>
         </form>
     )
 }
