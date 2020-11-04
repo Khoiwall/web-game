@@ -127,6 +127,17 @@
 .games-column ul li{
     text-align: left;
 }
+.none{
+    border: none;
+    outline: none;
+    width: 100px;
+    padding: 2px;
+    color: #fff;
+    font-size: 12px;
+    letter-spacing: 1px;
+    background: #603bbb;
+    cursor: pointer;
+}
 /* css định nghĩa*/
 .container{
     width: auto;
