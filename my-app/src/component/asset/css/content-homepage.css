@@ -1,0 +1,62 @@
+.padding-left-right{
+    padding: 0px 10px;
+}
+.search-games{
+    position: absolute;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    width: 100%;
+    -o-transform: translateY(-50%);
+    z-index: 2;
+    transform: translateY(-50%);
+}
+.search-box{
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    padding: 40px;
+    border-radius: 6px;
+    position: relative;
+    background: #fff;
+}
+.search-box .text_filler{
+    -webkit-box-flex: 2;
+    -webkit-flex: 2;
+    -ms-flex: 2;
+    flex: 2;
+    line-height: 55px;
+    height: 55px;
+    padding: 0 25px;
+    font-size: 16px;
+    -webkit-border-radius: 4px 0 0 4px;
+    border-radius: 4px 0 0 4px;
+    border-right: 0;
+    background: #fff;
+    border: 1px solid #dcdcdc;
+}
+.search-box form{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.search-box .style-input{
+    box-shadow: none;
+    outline: none;
+    width: 85%;
+    box-sizing: border-box;
+}
+.search-box .search-button{
+    margin-left: 30px;
+    -webkit-transition: 0.3s ease;
+    -o-transition: 0.3s ease;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+.search-button {
+    color: #fff;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    min-width: 223px;
+    font-size: 16px;
+    border: 0;
+    width: 15%;
+}

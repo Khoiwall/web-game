@@ -96,7 +96,7 @@
 }
 .games-item{
     display: grid;
-    grid-template-columns: 205px 120px 95px 121px 161px;
+    grid-template-columns: 205px 130px 100px 121px 161px;
     height: 100%;
 }
 .games-column{
