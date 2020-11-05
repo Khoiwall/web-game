@@ -1,5 +1,5 @@
 import React, {useState,useEffect} from 'react';
-import fire from '../filebase/fire.js';
+import fire from '../firebase/fire.js';
 import '../asset/css/login-signup.css';
 import { Link } from "react-router-dom";
 
