@@ -2,7 +2,7 @@
     height: 100vh;
     width: 100%;
     top: 0;
-    background-image: url("https://demo.gloriathemes.com/wp/cloux/wp-content/uploads/2017/12/egypt-slider-1920x941.jpg"); width: 1519px; min-height: 722px;
+    width: 1519px; min-height: 722px;
     background-position: center center;
     background-size: cover;
     text-align: center;
@@ -127,16 +127,61 @@
 .games-column ul li{
     text-align: left;
 }
-.none{
-    border: none;
-    outline: none;
-    width: 100px;
-    padding: 2px;
-    color: #fff;
-    font-size: 12px;
-    letter-spacing: 1px;
-    background: #603bbb;
+.banner-opacity{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #000000;
+    opacity: 0.4;
+}
+.wrap{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-position: center center;
+    background-size: cover;
+    padding: 11.54rem 0;
+    text-align: center;
+    color: #FFFFFF;
+    align-items: center;
+    display: flex;
+}
+.wrap .inner{
+    max-width: 59.23rem;
+    position: relative;
+    z-index: 3;
+    margin-left: auto;
+    margin-right: auto;
+}
+.wrap .title{
+    font-size: 6.154rem;
+    line-height: 6.154rem;
+    font-weight: 800;
+    margin-bottom: 2.308rem;
+    text-transform: uppercase;
+}
+.wrap .describe-game{
+    margin-bottom: 3.231rem;
+    font-size: 1.154rem;
+}
+.button-see-game{
+    display: inline-block;
+    margin-right: 3.462rem;
+}
+.button-see-game a{
+    font-size: 1.077rem;
+    border-bottom: 0.1538rem solid #FFFFFF;
+    font-weight: 600;
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 0.7692rem 1.538rem;
+    color: #ffffff;
     cursor: pointer;
+    transition: 0.5s;
+}
+.button-see-game a:hover{
+    color: #ffc311;
+    border-color: #ffc311;
 }
 /* css định nghĩa*/
 .container{
