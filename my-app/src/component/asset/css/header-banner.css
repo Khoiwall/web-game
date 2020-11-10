@@ -2,7 +2,6 @@
     height: 100vh;
     width: 100%;
     top: 0;
-    width: 1519px; min-height: 722px;
     background-position: center center;
     background-size: cover;
     text-align: center;
@@ -15,6 +14,10 @@
 .header-component{
     padding: 2.308rem 0 1.154rem;
     z-index: 100;
+}
+.header-container-image{
+    position: absolute;
+    bottom: 34px;
 }
 .header{
     position: absolute;
@@ -84,19 +87,19 @@
     visibility: hidden;
     border-radius: 0px 0px 10px 10px;
 }
-.dropdown-menu-game:hover .dropdown-megamenu{
-    display: block;
-    visibility: visible;
-    opacity: 1;
-}
 .games-model{
     display: block;
     width: auto;
     height: auto;
 }
+.dropdown-menu-game:hover .dropdown-megamenu{
+    display: block;
+    visibility: visible;
+    opacity: 1;
+}
 .games-item{
     display: grid;
-    grid-template-columns: 205px 130px 100px 121px 161px;
+    grid-template-columns: 210px 130px 100px 121px 161px;
     height: 100%;
 }
 .games-column{

@@ -7,7 +7,7 @@ class loginpage extends Component{
         return(
             <div className="login-page">
                 <Helmet>
-                    <title> Đăng nhập tài khoảng </title>
+                    <title> Đăng nhập tài khoản </title>
                 </Helmet>
                 <div className="background-login-page">
                     <Header></Header>

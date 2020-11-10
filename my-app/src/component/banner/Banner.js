@@ -7,7 +7,8 @@ class Banner extends Component{
     constructor(props){
         super(props);
         this.state = {
-            games: {"title": "JUMANJI",
+            games: {"namegame": "jumanji",
+                    "title": "JUMANJI",
                     "describe": "Trò chơi kỳ ảo là một bộ phim điện ảnh hài hước phiêu lưu hành động của Mỹ năm 2017 do Jake Kasdan đạo diễn và Kasdan, Chris McKenna, Erik Sommers, Scott Rosenberg cùng Jeff Pinkner thực hiện biên kịch từ nguyên tác gốc của McKenna",
                     "image": "url('https://cdn02.nintendo-europe.com/media/images/10_share_images/games_15/nintendo_switch_4/H2x1_NSwitch_JumanjiTheVideoGame_enGB_image1600w.jpg')"
             }
