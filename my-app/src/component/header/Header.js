@@ -9,7 +9,7 @@ class Header extends Component{
     render(){
         return(
             <div className="header-component container d-flex relative align-items justify-content">
-                <div className = "Header-logo">
+                <div className = "header-logo">
                     <div className = "header-container-image">
                         <Link to="/"><img src = {image} alt="logo"/></Link>
                     </div>
