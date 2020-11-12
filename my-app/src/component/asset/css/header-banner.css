@@ -186,6 +186,13 @@
     color: #ffc311;
     border-color: #ffc311;
 }
+.title, .describe-game{
+    user-select: none; /* supported by Chrome and Opera */
+   -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+   -moz-user-select: none; /* Firefox */
+   -ms-user-select: none; /* Internet Explorer/Edge */
+}
 /* css định nghĩa*/
 .container{
     width: auto;

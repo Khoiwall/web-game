@@ -108,6 +108,7 @@ const Logins = () => {
                 required 
                 value={email} 
                 onChange={e => setEmail(e.target.value)}
+                name="email"
                 />
                 <p className="errorMsg">{emailError}</p>
                 <label>Mật khẩu</label>
@@ -116,6 +117,7 @@ const Logins = () => {
                 required
                 value={password}
                 onChange={e => setPassword(e.target.value)}  
+                name="password"
                 />
                 <p className="errorMsg">{passwordError}</p>
                 <div className="btnContainer">
