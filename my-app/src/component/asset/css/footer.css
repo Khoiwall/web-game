@@ -1,0 +1,45 @@
+.site-footer{
+    margin-top: 60px;
+    background-image: url('http://demo.themexpert.com/wordpress/gamez/wp-content/uploads/2016/08/gamez-footer-bg.jpg');
+}
+.site-footer .footer-main{
+    background-color: rgba(10,10,10,0.01);
+    padding: 120px 0px;
+}
+.row{
+    display: grid;
+    grid-template-columns: 400px auto auto;
+}
+.info-footer{
+    padding: 0px 10px;
+}
+.info-logo{
+    margin-right: 102px;
+}
+.contact h3, .info-fanpage h3, .info-fanpage p, .social-network h2{
+    color: #fff;
+}
+.info-logo a,.info-text{
+    margin-bottom: 25px;
+}
+.info-contact li{
+    display: block;
+}
+.info-fanpage{
+    margin-bottom: 15px;
+}
+.row-1{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.sum-view, .active-online{
+    padding: 0px 12px 0px 0px;
+}
+.sum-view h2, .active-online h2{
+    font-size: 28px;
+    font-weight: 600;
+    color: #fff;
+}
+.social-network ul li{
+    padding: 12px 15px 12px 0px;
+}

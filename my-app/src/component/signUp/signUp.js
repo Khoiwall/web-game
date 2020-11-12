@@ -107,7 +107,7 @@ const Signup = () => {
         passwordError, 
         setPasswordError} = props;*/
     return(
-        <form action='signUp' get='METHOD' className="login">
+        <form action='signUp' method="POST" className="login">
             
             <div className="loginContainer">
                 <label>Tên của bạn</label>
@@ -117,6 +117,7 @@ const Signup = () => {
                 required 
                 value={name} 
                 onChange={e => setName(e.target.value)}
+                name="name"
                 />
                 <p className="errorMsg">{nameError}</p>
                 <label>Email</label>
@@ -126,6 +127,7 @@ const Signup = () => {
                 required 
                 value={email} 
                 onChange={e => setEmail(e.target.value)}
+                name="email"
                 />
                 <p className="errorMsg">{emailError}</p>
                 <label>Tên đăng nhập</label>
@@ -135,6 +137,7 @@ const Signup = () => {
                 required 
                 value={username} 
                 onChange={e => setUsername(e.target.value)}
+                name="username"
                 />
                 <p className="errorMsg">{usernameError}</p>
                 <label>Mật khẩu</label>
@@ -143,6 +146,7 @@ const Signup = () => {
                 required
                 value={password}
                 onChange={e => setPassword(e.target.value)}  
+                name="password"
                 />
                 <p className="errorMsg">{passwordError}</p>
                 <div className="btnContainer">

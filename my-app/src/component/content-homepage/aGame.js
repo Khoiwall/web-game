@@ -8,7 +8,7 @@ class GamesHotMonth extends Component{
             <div className="game-review-item">
                 <Link to='/games/'>
                     <figure>
-                        <img src='http://demo.themexpert.com/wordpress/gamez/wp-content/uploads/2016/06/The-Witcher-3-Wild-Hunt.jpg' alt></img>
+                        <img src='http://demo.themexpert.com/wordpress/gamez/wp-content/uploads/2016/06/The-Witcher-3-Wild-Hunt.jpg' alt ="main image"></img>
                     </figure>
                 </Link>
                 <Link to='/games/'>
