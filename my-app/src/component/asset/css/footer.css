@@ -6,7 +6,7 @@
     background-color: rgba(10,10,10,0.01);
     padding: 120px 0px;
 }
-.row{
+.footer-row{
     display: grid;
     grid-template-columns: 400px auto auto;
 }
