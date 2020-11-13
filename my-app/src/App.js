@@ -6,7 +6,8 @@ import {
 } from "react-router-dom";
 import HomePage from './pages/homepage.js';
 import LoginPage from './pages/loginpage.js';
-import SingUpPage from './pages/signuppage.js'
+import SingUpPage from './pages/signuppage.js';
+import GamePage from './pages/gamePage.js'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path='/' exact component={HomePage}></Route>
           <Route path='/login' exact component={LoginPage}></Route>
           <Route path='/sign-up' exact component={SingUpPage}></Route>
+          <Route path='/games/demo' exact component={GamePage}></Route>
       </div>
     </Router>
   );

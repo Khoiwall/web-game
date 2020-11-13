@@ -10,7 +10,7 @@ class Footer extends Component{
             <footer id="colophon" className="site-footer">
                 <div className="footer-main">
                     <div className="container">
-                        <div className="row">
+                        <div className="footer-row">
                             <div className="info-footer">
                                 <div className="info-logo">
                                     <Link to="/" title="logo homepage"><img src={logo} alt="logo"></img></Link>
