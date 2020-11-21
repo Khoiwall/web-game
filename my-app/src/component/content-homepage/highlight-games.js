@@ -4,6 +4,7 @@ import GamesHot from '../content-homepage/aGame.js'
 
 class BriefGames extends Component{
     render(){
+        const {gameHot} = this.props
         return(
             <section className="brief-games">
                 <div className = "games-wraper">
@@ -16,11 +17,9 @@ class BriefGames extends Component{
                                     </div>
                                 </div>
                                 <div className="layout-list-games">
-                                    <GamesHot/>
-                                    <GamesHot/>
-                                    <GamesHot/>
-                                    <GamesHot/>
-                                    <GamesHot/>
+                                    {gameHot.map((game,index) =>(
+                                        <GamesHot key={index} game={game}/>
+                                    ))}
                                 </div>
                             </div>
                         </div>

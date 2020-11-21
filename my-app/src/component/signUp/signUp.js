@@ -107,7 +107,7 @@ const Signup = () => {
         passwordError, 
         setPasswordError} = props;*/
     return(
-        <form action='signUp' method="POST" className="login">
+        <form action='http://localhost:5000/user/sign-up' method="POST" className="login">
             
             <div className="loginContainer">
                 <label>Tên của bạn</label>

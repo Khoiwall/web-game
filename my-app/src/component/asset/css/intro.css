@@ -7,7 +7,12 @@
     color: #777777;
 }
 .intro .product-image{
-    margin-left: 100px;
+    padding-left: 100px;
+    width: 100%;
+}
+.intro .product-image img{
+    width: 100%;
+    max-height: 550px;
 }
 .intro .product-info{
     width: 360px;

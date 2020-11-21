@@ -92,14 +92,50 @@
     height: auto;
 }
 .layout-list-games{
-    padding: 20px 50px;
+    padding: 20px 0px;
     display: grid;
     grid-template-columns: auto auto auto auto auto;
 }
-.game-review-item figure img{
-    max-width: 250px;
-    max-height: 250px;
+.game-review-item figure .image-game{
+    z-index: 5;
+    width: 250px;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 .game-update{
     padding-top: 60px;
+}
+.game-review-item{
+    padding: 5px;
+    width: 260px;
+}
+.game-review-item a{
+    color: black;
+}
+.game-review-item a:hover{
+    text-decoration: none;
+}
+.game-review-item figure{
+    position: relative;
+}
+.game-review-item figure svg{
+    font-size: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: blanchedalmond;
+    display: none;
+    visibility: hidden;
+    transition: 0.5s;
+}
+.game-review-item:hover figure svg{
+    visibility: visible;
+    display: block;
+}
+.game-review-item:hover figure .backgournd-color{
+    background-color: rgba(43, 43, 44, 0.5);
+    width: 100%;
+    height: 100%;
 }

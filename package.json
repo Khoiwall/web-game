@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/Khoiwall/web-game/issues"
   },
-  "homepage": "https://github.com/Khoiwall/web-game#readme"
+  "homepage": "https://github.com/Khoiwall/web-game#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.14",
+    "pug": "^3.0.0"
+  }
 }

@@ -1,6 +1,5 @@
 .category{
     text-align: left;
-    display: grid;
     background: #ffffff;
     box-shadow: 0 0 3rem rgba(0, 0, 0, 0.10);
     margin-right: 148px;
@@ -18,5 +17,11 @@
     font-size: 20px;
 }
 .category .list-category{
-
+    padding: 10px 20px;
+}
+.category .list-category span{
+    margin: 10px;
+    background-color: rgba(93, 140, 250, 0.2);
+    color: #0674ec;
+    border-radius: 20px;
 }

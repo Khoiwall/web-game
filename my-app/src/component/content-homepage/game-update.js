@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import '../asset/css/content-homepage.css'
-import GamesHot from '../content-homepage/aGame.js'
 
 class BriefGames extends Component{
     render(){
@@ -16,11 +15,6 @@ class BriefGames extends Component{
                                     </div>
                                 </div>
                                 <div className="layout-list-games">
-                                    <GamesHot/>
-                                    <GamesHot/>
-                                    <GamesHot/>
-                                    <GamesHot/>
-                                    <GamesHot/>
                                 </div>
                             </div>
                         </div>

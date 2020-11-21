@@ -9,17 +9,27 @@ import Review from '../component/games/review'
 import LinkGame from '../component/games/link'
 import Comment from '../component/games/comment'
 import  ImgCarousel from '../component/games/img-carousel/img-carousel'
-function GamePage() {
-  return (
-    <div className="Game page">
-      <Info></Info>
-      <Review></Review>
-      <Required></Required>
-      <ImgCarousel></ImgCarousel>
-      <LinkGame></LinkGame>
-      <Comment></Comment>
-    </div>
-  );
+import Footer from '../component/footer/footer.js'
+import { Component } from 'react'
+import { Helmet } from 'react-helmet';
+class GamePage extends Component {
+  render(){
+    const {game} = this.props
+    return (
+      <div className="Game page">
+        <Helmet>
+          <title> {game.name} </title>
+        </Helmet>
+        <Info game={game}></Info>
+        <Review game={game}></Review>
+        <Required game={game}></Required>
+        <ImgCarousel game={game}></ImgCarousel>
+        <LinkGame game={game}></LinkGame>
+        <Comment></Comment>
+        <Footer></Footer>
+      </div>
+    );
+  }
 }
 
 export default GamePage;

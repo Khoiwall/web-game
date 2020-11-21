@@ -33,5 +33,15 @@
     padding-left: 0px;
 }
 .required .required-body .required-info li{
+    display: block;
     list-style: none;
+}
+.required .required-body .required-detail{
+    font-size: 13px;
+    font-weight: 500;
+    color: black;
+}
+.required .required-body .required-label{
+    font-weight: 700;
+    color: black;
 }

@@ -5,6 +5,12 @@ import { Link } from "react-router-dom";
 import logo from './image/logo-2.png'
 
 class Footer extends Component{
+    raiseInvoiceClicked(){
+        // your axios call here
+        localStorage.setItem("pageData", "Data Retrieved from axios request")
+        // route to new page by changing window.location
+        window.open('facebook.com', "_blank") //to open new page
+     }
     render(){
         return(
             <footer id="colophon" className="site-footer">
@@ -47,7 +53,7 @@ class Footer extends Component{
                                     <h2>Mạng Xã Hội</h2>
                                     <p>Theo dõi các mạng xã hội để có được những thông tin mới nhất</p>
                                     <ul>
-                                        <li><a href="fb.com">Facebook</a></li>
+                                        <li><a href="https://www.facebook.com/" target="_blank">Facebook</a></li>
                                         <li>Facebook</li>
                                         <li>Facebook</li>
                                         <li>Facebook</li>
