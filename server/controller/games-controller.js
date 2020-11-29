@@ -1,4 +1,5 @@
 var gamedb = require('../moogodb/gamedb.js')
+var userController = require('./user-controller.js')
 
 module.exports.ApiListGame = async function(req,res){
     var listGame = await gamedb.find();
@@ -59,4 +60,15 @@ module.exports.AddGame = async function(req,res){
     }]
     await gamedb.insertMany(game)
     res.render('admin_game/games')
+}
+
+module.exports.checkLogin = function(req,res,next){
+    if(!req.signedCookies.userId){
+        res.redirect('http://localhost:3000/login')
+    }
+    next()
+}
+
+module.exports.postComment = function(req,res){
+    console.log(req.body)
 }

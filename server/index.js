@@ -7,12 +7,14 @@ const port = 5000
 var cors = require("cors");
 var mongoose = require('mongoose');
 var bodyParser = require('body-parser')
+var cookieParser = require('cookie-parser')
 
 var gamesRouter = require('../server/Router/games-Router.js')
 var userRouter = require('../server/Router/user-Router.js')
 
 mongoose.connect(process.env.MoGOURL);
 
+app.use(cookieParser(process.env.login))
 app.set('view engine', 'pug');
 app.use(express.static("public"));
 app.use(cors());

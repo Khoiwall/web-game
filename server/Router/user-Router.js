@@ -5,5 +5,9 @@ var router = express.Router()
 
 router.get('/ApiUser', userController.ApiListUser)
 router.post('/sign-up', userController.AddUser)
+router.get('/apiErrorSignUp',userController.checkErrorSignUp)
+router.post('/login', userController.login)
+router.get('/ApiUserLogin',userController.ApiLogin)
+router.get('/apiErrorLogin', userController.checkErrorLogin)
 
 module.exports = router

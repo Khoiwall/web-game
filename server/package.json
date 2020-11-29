@@ -13,6 +13,7 @@
     "nodemon": "^2.0.6"
   },
   "dependencies": {
+    "cookie-parser": "^1.4.5",
     "pug": "^3.0.0"
   }
 }
