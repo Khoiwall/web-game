@@ -11,7 +11,7 @@ class DetailGameBrief extends Component{
                     <div className="title">{game.name}</div>
                     <div className="describe-game">{game.description.numberOne}</div>
                     <div className="button-see-game">
-                        <Link to={'/games/' + game.NamePage} title='See More'>See More</Link>
+                        <Link to={'/games/' + game.namePage} title='See More'>See More</Link>
                     </div>
                 </div>
             </div>

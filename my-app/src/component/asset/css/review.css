@@ -8,8 +8,8 @@
     background: #ffffff;
     box-shadow: 0 0 3rem rgba(0, 0, 0, 0.10);
     padding: 50px;
-    margin-left: 130px;
-    margin-right: 79px;
+    margin-left: 13%;
+    margin-right: 13%;
     font-family: 'Poppins',sans-serif,;
     font-weight: bold;
     font-size: 15px;
@@ -30,4 +30,14 @@
     color: #777777;
     letter-spacing: 0.5px;
     line-height: 1.8;
+}
+
+@media (max-width: 840px) {
+    .Layout{
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .Layout .category{
+        display: none;
+    }
 }

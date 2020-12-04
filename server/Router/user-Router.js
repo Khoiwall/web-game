@@ -9,5 +9,6 @@ router.get('/apiErrorSignUp',userController.checkErrorSignUp)
 router.post('/login', userController.login)
 router.get('/ApiUserLogin',userController.ApiLogin)
 router.get('/apiErrorLogin', userController.checkErrorLogin)
-
+router.post('/comment', userController.postComment)
+router.get('/signOut',userController.signOut)
 module.exports = router

@@ -10,7 +10,6 @@ import SingUpPage from './pages/signuppage.js';
 import GamePage from './pages/gamePage.js'
 import Loading from './component/loader/loading.js'
 import axios from 'axios'
-
 class App extends Component {
   constructor(props){
     super(props)
@@ -18,29 +17,36 @@ class App extends Component {
       listgame: []
     }
   }
-  componentDidMount(){
+  componentWillMount(){
     axios.get('http://localhost:5000/games/list-game')
     .then(res=>{
         this.setState({
           listgame: res.data
         })
     })
-    .catch(()=>console.log('khoi'))
+    .catch(()=>console.log('Error'))
 }
   render(){
     const {listgame} = this.state
-    return (
-      <Router>
-        <div className="App">
-            <Route path='/' exact component={HomePage}><HomePage listgame={listgame}/></Route>
-            <Route path='/login' exact component={LoginPage}><LoginPage/></Route>
-            <Route path='/sign-up' exact component={SingUpPage}><SingUpPage/></Route>
-            {listgame.map((game,index)=>(
-              <Route path={"/games/" + game.NamePage} exact component={GamePage} key={index} ><GamePage game={game}/></Route>
-            ))}
-        </div>
-      </Router>
-    );
+    if (listgame.length > 0){
+      return (
+        <Router>
+          <div className="App">
+              <Route path='/' exact component={HomePage}><HomePage/></Route>
+              <Route path='/login' exact component={LoginPage}><LoginPage/></Route>
+              <Route path='/sign-up' exact component={SingUpPage}><SingUpPage/></Route>
+              {listgame.map((game,index)=>(
+                <Route path={"/games/" + game.namePage} exact component={GamePage} key={index} ><GamePage game={game}/></Route>
+              ))}
+          </div>
+        </Router>
+      );
+    }
+    else{
+      return(
+        <Loading/>
+      )
+    }
   }
 }
 

@@ -33,6 +33,7 @@
     border-radius: 1.9230rem;
     background-color: #ffc311;
     right: 0px;
+    top: -10px;
 }
 .header-popup{
     color: #FFFFFF;
@@ -193,13 +194,32 @@
    -moz-user-select: none; /* Firefox */
    -ms-user-select: none; /* Internet Explorer/Edge */
 }
+.header-userName{
+    padding: 5px 18px 20px 15px;
+}
+.header-userName p{
+    margin: 0px;
+}
+.delete-cookie{
+    color: #FFF;
+    font-size: 12px;
+    position: absolute;
+    right: 30px;
+}
+.hader-mobile{
+    visibility: hidden;
+    display: none;
+}
+.in-game{
+    height: 60vh;
+}
 /* css định nghĩa*/
 .container{
     width: auto;
     height: auto;
     margin: 0px 13%;
 }
-.d-flex{
+.dis-flex{
     display: flex;
 }
 .relative{
@@ -240,3 +260,57 @@ img{
     margin: 0 !important;
 }
 /*này chỉ cần sử dụng lại thôi*/
+/*reponesive*/
+@media (max-width: 1200px) {
+    .hader-mobile{
+        background: #FFF;
+        width: 100%;
+        height: 50px;
+    }
+    .nav-mobile{
+        width: 100%;
+        height: 100%;
+    }
+    .dis-mobile-flex{
+        display: flex;
+        align-items: center;
+    }
+    .logo-mobile{
+        width: auto;
+        height: auto;
+        display: inline-block;
+    }
+    .menu-mobile .menu-bar img{
+        width: 25px;
+        height: 25px;
+        cursor: pointer;
+    }
+    .pos-absolute{
+        position: absolute;
+        right: 0px;
+    }
+    .pos-relative{
+        position: relative;
+    }
+    .hader-mobile{
+        display: block;
+        visibility: visible;
+    }
+    .dis-flex{
+        display: none !important;
+    }
+}
+
+@media (max-width: 790px) {
+    .wrap .title{
+        font-size: 3rem;
+        line-height: 4rem;
+        font-weight: 600;
+        margin-bottom: 2rem;
+        text-transform: uppercase;
+    }
+    .wrap .describe-game{
+        margin-bottom: 3rem;
+        font-size: 1rem;
+    }
+}

@@ -1,12 +1,9 @@
 .required{
     margin-top: 50px;
     text-align: left;
-    display: grid;
     background: #ffffff;
     box-shadow: 0 0 3rem rgba(0, 0, 0, 0.10);
     padding: 50px;
-    margin-left: 130px;
-    margin-right: 585px;
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
     font-size: 15px;
@@ -20,6 +17,8 @@
     border-bottom: 1px solid #777777;
 }
 .required .required-body{
+    grid-template-columns: 1fr 1fr;
+    display: grid;
     margin-top: 30px;
     letter-spacing: 0.5px;
     line-height: 1.8;
@@ -44,4 +43,14 @@
 .required .required-body .required-label{
     font-weight: 700;
     color: black;
+}
+
+@media (max-width: 600px) {
+    .required .required-body{
+        grid-template-columns: auto;
+        display: grid;
+        margin-top: 30px;
+        letter-spacing: 0.5px;
+        line-height: 1.8;
+    }
 }

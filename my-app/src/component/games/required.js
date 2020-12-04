@@ -3,13 +3,13 @@ class Required extends Component{
     render(){
         const {game} = this.props
         return(
-            <div className='required'>
+            <div className='required container'>
                     <div className='required-title'>
                         CẤU HÌNH
                     </div>
                     <div className='required-body'>
-                        <div className='list-required'>MINIMUM</div>
                         <ul className='required-info'>
+                            <div className='list-required'><h4>MINIMUM</h4></div>
                             <li>
                                 <div className='required-label'>OS:</div>
                                 <div className='required-detail'>{game.minimum.os}</div>
@@ -36,8 +36,8 @@ class Required extends Component{
                             </li>
 
                         </ul>
-                        <div className='list-required'>RECOMMENDED</div>
                         <ul className='required-info'>
+                            <div className='list-required'><h4>RECOMMENDED</h4></div>
                             <li>
                                 <div className='required-label'>OS:</div>
                                 <div className='required-detail'>{game.recommended.os1}</div>

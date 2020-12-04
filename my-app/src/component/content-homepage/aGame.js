@@ -9,15 +9,15 @@ class GamesHotMonth extends Component{
         const {game} = this.props
         return(
             <div className="game-review-item">
-                <Link to={'/games/' + game.NamePage} title={game.title}>
-                    <figure>
+                <Link to={'/games/' + game.namePage} title={game.title}>
+                    <div className="figure">
                         <div className="image-game" style={{backgroundImage: 'url("' + game.imageBackgourndGames + '")'}}>
                             <div className="backgournd-color"></div>
                         </div>
                         <FontAwesomeIcon icon={faGamepad}></FontAwesomeIcon>
-                    </figure>
+                    </div>
                 </Link>
-                <Link to={'/games/' + game.NamePage} style={{display: "block"}} title={game.name}>
+                <Link to={'/games/' + game.namePage} style={{display: "block"}} title={game.name}>
                     <h5 className="name-games">{game.name}</h5>
                 </Link>
             </div>

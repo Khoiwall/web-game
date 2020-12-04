@@ -39,6 +39,9 @@ var GameSchema = new mongoose.Schema({
     category: Array,
     link: Object,
         googleDrive: String,
+    comment: Array,
+    commenter:String,
+    contentComment: String
 
 });
 

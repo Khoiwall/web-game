@@ -43,3 +43,15 @@
 .social-network ul li{
     padding: 12px 15px 12px 0px;
 }
+@media (max-width: 790px) {
+    .footer-row{
+        display: grid;
+        grid-template-columns: 400px auto;
+    }
+}
+
+@media (max-width: 560px) {
+    .footer-row{
+        display: block;
+    }
+}

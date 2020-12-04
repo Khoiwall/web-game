@@ -4,7 +4,7 @@ class LinkGame extends Component{
     render(){
         const {game} = this.props
         return(
-            <div className='link'>
+            <div className='link container'>
                 <div className='link-name'>
                         LINK TẢI RESIDENT EVIL RESISTANCE
                 </div>

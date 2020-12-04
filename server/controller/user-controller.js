@@ -1,7 +1,19 @@
+const { read } = require('../../../nodejs_demo/db.js');
 var userdb = require('../moogodb/userdb.js')
+var gamedb = require('../moogodb/gamedb')
 var userLogin = []
 var errorSignUp = {email: '',username: '',password: ''}
 var errorLogin;
+
+function makeid(length) {
+    var result           = '';
+    var characters       = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+    var charactersLength = characters.length;
+    for ( var i = 0; i < length; i++ ) {
+       result += characters.charAt(Math.floor(Math.random() * charactersLength));
+    }
+    return result;
+}
 
 module.exports.ApiListUser = async function(req,res){
     var listUsers = await userdb.find()
@@ -10,7 +22,9 @@ module.exports.ApiListUser = async function(req,res){
 
 module.exports.AddUser = async function(req,res){
     var listUser = await userdb.find() 
-    var checkError = 0;
+    var checkError = 0
+    var idStringTmp = makeid(15)
+
     for(var i = 0; i < listUser.length; i++){
         if(req.body.email === listUser[i].email){
             errorSignUp.email = 'Email đã có người sử dụng'
@@ -25,12 +39,29 @@ module.exports.AddUser = async function(req,res){
             checkError++
         }
     }
+
     if (checkError !== 0){
         res.redirect('http://localhost:3000/sign-up')
         checkError = 0;
     }
     else{
-        userdb.insertMany(req.body)
+        while(true){
+            if((await userdb.find({idString: idStringTmp})).length !== 0){
+                idStringTmp = makeid(15)
+            }
+            else{
+                break;
+            }
+            
+        }
+        var userTmp = [{
+            "name": req.body.name,
+            "email": req.body.email,
+            "username": req.body.username,
+            "password": req.body.password,
+            "idString": idStringTmp
+        }]
+        userdb.insertMany(userTmp)
         errorSignUp = {email: '',username: '',password: ''}
         res.redirect('http://localhost:3000')
     }
@@ -59,18 +90,58 @@ module.exports.login = async function(req,res){
             userLogin = loginByEmail
             
         }
-        res.cookie('userId',userLogin._id,{
-            signed: true
+        res.cookie('userMail',userLogin[0].email,{
+            signed: true,
+            expires: new Date(Date.now() + 900000)
+        })
+        res.cookie('_locale_id_xd',userLogin[0].idString,{
+            httpOnly: true,
+            signed: true,
+            expires: new Date(Date.now() + 900000)
+        })
+        res.cookie('_uuXD',userLogin[0]._id,{
+            signed: true,
+            expires: new Date(Date.now() + 900000)
+        })
+        res.cookie('_sg_bm','831171891012155',{
+            expires: new Date(Date.now() + 900000)
         })
         errorLogin = ''
         res.redirect('http://localhost:3000')
     }
 }
 
-module.exports.ApiLogin = function(req,res){
-    res.json(userLogin[0])
+module.exports.postComment = async function(req,res){
+    userLogin = await userdb.find({email: req.signedCookies.userMail, idString: req.signedCookies._locale_id_xd})
+    if(userLogin.length === 0){
+        res.cookie('_sg_bm',makeid(20),{
+            expires: new Date(Date.now() + 900000)
+        })
+        res.redirect('http://localhost:3000')
+        return
+    }
+    game = await gamedb.find({name: req.body.nameGame})
+    game[0].comment.push({
+        "commenter": userLogin[0].name,
+        "contentComment": req.body.content
+    })
+    await gamedb.remove({name: req.body.nameGame})
+    await gamedb.insertMany(game)
+    res.redirect('http://localhost:3000/games/'+game[0].namePage)
 }
 
-module.exports.User = function(){
-    return userLogin[0]
+module.exports.signOut = async function(req,res){
+    userLogin = []
+    res.cookie('_sg_bm',makeid(20),{
+        expires: new Date(Date.now() + 900000)
+    })
+    res.redirect('http://localhost:3000')
+}
+
+module.exports.ApiLogin = async function(req,res){
+    var fullName = ''
+    if (userLogin.length !== 0){
+        fullName = userLogin[0].name
+    }
+    res.json({name: fullName})
 }

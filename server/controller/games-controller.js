@@ -56,19 +56,9 @@ module.exports.AddGame = async function(req,res){
         "view": req.body.view,
         "link":{
             "googleDrive": req.body.googleDrive
-        }
+        },
+        "comment": []
     }]
     await gamedb.insertMany(game)
     res.render('admin_game/games')
-}
-
-module.exports.checkLogin = function(req,res,next){
-    if(!req.signedCookies.userId){
-        res.redirect('http://localhost:3000/login')
-    }
-    next()
-}
-
-module.exports.postComment = function(req,res){
-    console.log(req.body)
 }

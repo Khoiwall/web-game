@@ -13,6 +13,7 @@
 .intro .product-image img{
     width: 100%;
     max-height: 550px;
+    height: 100%;
 }
 .intro .product-info{
     width: 360px;
@@ -55,4 +56,20 @@
     float: left;
     font-weight: 300;
     color: #007bff;
+}
+
+@media (max-width: 840px) {
+    .intro{
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: auto;
+        background: #ffffff;
+        color: #777777;
+    }
+    .intro .product-info{
+        display: none;
+    }
+    .intro .product-image{
+        padding: 0px 50px;
+    }
 }

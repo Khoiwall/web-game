@@ -6,6 +6,7 @@ import HighlightGame from '../component/content-homepage/highlight-games.js'
 import GameUpdate from '../component/content-homepage/game-update.js'
 import Footer from '../component/footer/footer.js'
 import Loading from '../component/loader/loading.js'
+import NavMobile from '../component/header/nav-mobile'
 import { Helmet } from 'react-helmet';
 import axios from 'axios'
 class HomePage extends Component{
@@ -13,21 +14,27 @@ class HomePage extends Component{
         super(props);
         this.state = {
             listGame: [],
+            name: '',
         }
     }
     componentWillMount(){
         axios.get('http://localhost:5000/games/list-game')
         .then(res=>{
-            console.log(res)
             this.setState({
                 listGame: res.data
             })
         })
         .catch(()=>console.log('khoi'))
+        axios.get('http://localhost:5000/user/ApiUserLogin')
+        .then(res=>{
+            this.setState({
+                name: res.data.name
+            })
+        })
+        .catch(()=>console.log('khoi'))
     }
     render(){
-        const {listGame} = this.state;
-        console.log(listGame)
+        const {listGame,name} = this.state;
         function gameHighLight(){
             var gameHot = []
             var tmp = {}
@@ -52,7 +59,8 @@ class HomePage extends Component{
                         <title> GameFree - Cộng đồng game free </title>
                     </Helmet>
                     <div className="header banner relative">
-                        <Banner game={gameHighLight()[0]}/>
+                        <NavMobile></NavMobile>
+                        <Banner game={gameHighLight()[0]} name={name}/>
                         <Search/>
                     </div>
                     <div className="content">
