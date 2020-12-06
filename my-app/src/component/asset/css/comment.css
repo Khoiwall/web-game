@@ -1,0 +1,56 @@
+.comment{
+    margin-top: 50px;
+    text-align: left;
+    background: #ffffff;
+    box-shadow: 0 0 3rem rgba(0, 0, 0, 0.10);
+    padding: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    color: #777777;
+}
+.nobody-comment{
+    padding: 0px;
+    width: 0px;
+    height: 0px;
+}
+.comment label{
+    color: #282828;
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #777777;
+}
+.comment .comment-input{
+    font-size: 18px;
+    padding: 50px 0px;
+    color: #777777;
+    letter-spacing: 0.5px;
+    line-height: 1.8;
+}
+.comment .comment-input input{
+    padding-left: 25px;
+    width: 100%;
+    height: 100px;
+}
+.image-avatar, .avatar{
+    width: auto;
+    height: auto;
+    display: inline-block;
+}
+.avatar{
+    margin-right: 30px;
+}
+.wrapper-comment{
+    display: grid;
+    grid-template-columns: 80px auto;
+    padding: 10px 0px;
+}
+.form-comment{
+    display: flex;
+    align-items: center;
+}
+.form-comment div{
+    background: rgba(213, 211, 211, 0.5);
+    border-radius: 5px;
+}

@@ -1,0 +1,14 @@
+body{
+    font-size: 1rem;
+    background-color: #e9e4e4;
+    line-height: 1.8;
+    color: #777777;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+}
+.game-page{
+    background: rgba(223, 221, 221, 0.7);
+}
+p{
+    color: black;
+}

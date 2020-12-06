@@ -1,0 +1,56 @@
+.required{
+    margin-top: 50px;
+    text-align: left;
+    background: #ffffff;
+    box-shadow: 0 0 3rem rgba(0, 0, 0, 0.10);
+    padding: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    color: #777777;
+}
+.required .required-title{
+    color: #282828;
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #777777;
+}
+.required .required-body{
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+    margin-top: 30px;
+    letter-spacing: 0.5px;
+    line-height: 1.8;
+}
+.required .required-body .list-required{
+    font-size: 17px;
+    font-weight: bold;
+    color:#ffc311;
+}
+.required .required-body .required-info{
+    padding-left: 0px;
+}
+.required .required-body .required-info li{
+    display: block;
+    list-style: none;
+}
+.required .required-body .required-detail{
+    font-size: 13px;
+    font-weight: 500;
+    color: black;
+}
+.required .required-body .required-label{
+    font-weight: 700;
+    color: black;
+}
+
+@media (max-width: 600px) {
+    .required .required-body{
+        grid-template-columns: auto;
+        display: grid;
+        margin-top: 30px;
+        letter-spacing: 0.5px;
+        line-height: 1.8;
+    }
+}

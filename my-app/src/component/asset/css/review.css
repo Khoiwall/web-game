@@ -1,0 +1,43 @@
+.Layout{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+.review{
+    text-align: left;
+    display: grid;
+    background: #ffffff;
+    box-shadow: 0 0 3rem rgba(0, 0, 0, 0.10);
+    padding: 50px;
+    margin-left: 13%;
+    margin-right: 13%;
+    font-family: 'Poppins',sans-serif,;
+    font-weight: bold;
+    font-size: 15px;
+}
+.review .review-title{
+    color: #282828;
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #777777;
+
+}
+.review .review-title span{
+    color:#ffc311;
+}
+.review .review-body{
+    padding-top: 50px;
+    color: #777777;
+    letter-spacing: 0.5px;
+    line-height: 1.8;
+}
+
+@media (max-width: 840px) {
+    .Layout{
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .Layout .category{
+        display: none;
+    }
+}

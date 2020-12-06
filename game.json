@@ -1,0 +1,286 @@
+{
+    "games":[
+        {
+            "name": "Art Of Rally",
+            "NamePage": "ArtOfRally",
+            "imageBackGournd": "https://cdn.vox-cdn.com/thumbor/7veG8JihrUAqFjCnVvuAE5bZJpU=/0x76:1568x897/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/21911474/ss_c9c73e7439632d7ad885ccb5c8d8b412eecf3efe.1920x1080.jpg",
+            "imageBackgourndGames": "https://cdn2.unrealengine.com/egs-artofrallyost-funselektor-digitalextras-g1a-00-1920x1080-072691069.jpg?h=1080&resize=1&w=1920", 
+            "imageOne": "https://i0.wp.com/higherplaingames.com/wp-content/uploads/2020/09/artofrally-03.jpg?fit=2560%2C1440&ssl=1",
+            "imageTwo": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcStexXFkXNBKqPb-TTgscMUMF0dpLozyQoAhw&usqp=CAU",
+            "imageThree": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRFUZvjSWuyAQ6S7bTgiWpGopwRpQxl7XuTow&usqp=CAU",
+            "detail":{
+                "date": "23/09/2020",
+                "update": "08/10/2020",
+                "version": "v1.004",
+                "developer": "Funselektor Labs Inc.",
+                "publish": "Funselektor Labs Inc."
+            },
+            "updateUp": "20/7/2019",
+            "description": {
+                "numberOne": "art of rally là một trải nghiệm cách điệu lấy cảm hứng từ kỷ nguyên vàng của cuộc biểu tình từ người tạo ra Absolute Drift",
+                "numberTwo": "Chạy đua khắp thế giới thông qua môi trường đầy màu sắc và cách điệu ở chế độ xem từ trên xuống. Cạnh tranh cho vị trí đầu tiên trong bảng xếp hạng với các thử thách hàng ngày và hàng tuần. Bạn sẽ nắm vững nghệ thuật của cuộc biểu tình?",
+                "numberThree": "Trải nghiệm kỷ nguyên vàng của cuộc biểu tình trong Chế độ nghề nghiệp, đi qua 60 chặng từ Phần Lan đến Sardinia, Na Uy, Nhật Bản và Đức.",
+                "numberFour": "Get behind the wheel of your favorite vintage cars, ranging from the 60’s to the 80’s, Group B, Group S and Group A.",
+                "numberFive": "From beginner friendly options to driving modes that’ll challenge the most expert drivers, all players can tackle the races using their favorite rally driving tricks: Scandinavian flick, counter steering, left foot braking, handbrake turns."
+            },
+            "minimum":{
+                "os": "Windows 8 / 10",
+                "processor": "Intel Core i3 2.9 GHz or AMD equivalent",
+                "memory": "4 GB RAM",
+                "graphics": "Nvidia GeForce GTX650 or AMD equivalent",
+                "directX:": "Version 11",
+                "storage": "3 GB available space"
+            },
+            "recommended":{
+                "os1": "Windows 8 / 10",
+                "processor1": "Intel Core i5 3.6 GHz or AMD equivalent",
+                "memory1": "8 GB RAM",
+                "graphics1":"Nvidia GeForce GTX970 or AMD equivalent",
+                "directX1":"Version 11",
+                "storage1": "3 GB available space"
+            },
+            "category":[
+                "Thể thao","Đua xe","Mô phỏng"
+            ],
+            "view": 0,
+            "link":{
+                "googleDrive": "https://docs.google.com/uc?id=1c4Ky8sSlmzHv1zaln566ZLxFyPvnwq83&e=776518&fbclid=IwAR1PNrnwmM802Sy6E__ouUMQIvJw7v92x96NbjPyyoMk-LiUU0zFFuqpO9s"
+            }
+        },
+        {
+            "name": "Harry Potter And The Chamber Of Secrets",
+            "NamePage": "HarryPotterAndTheChamberOfSecrets",
+            "imageBackGournd": "https://i.ytimg.com/vi/L8ZLayN3NOM/maxresdefault.jpg",
+            "imageBackgourndGames": "https://linkneverdie.net/Assets/Imgs/Games/wallpaper6709c8d8-a6a6-4a1d-abc5-6ec2687d4d97872f949d-05a1-47c6-a71b-822d78c1f22e.jpg", 
+            "imageOne": "https://lh3.googleusercontent.com/-JnXN6nj6LCU/VhQWRz-7JqI/AAAAAAAAA24/LaQpMOfjwZ8/s850-Ic42/harry-potter-and-the-chamber-of-secrets-anh-1.jpg",
+            "imageTwo": "https://lh3.googleusercontent.com/-U6fmYD-QD3M/VhQWRUB04aI/AAAAAAAAA2w/6IGhmrZojIQ/s850-Ic42/Harry-Potter-and-the-Chamber-of-Secrets-video-game-harry-potter-35217254-1024-768.jpg",
+            "imageThree": "https://lh3.googleusercontent.com/-NavzHBabPeo/VhQWRx1yuCI/AAAAAAAAA28/4CBePyS2Rz0/s850-Ic42/harry-potter-and-the-chamber-of-secrets-anh-2.jpg",
+            "detail":{
+                "date": "02/01/2001",
+                "update": "07/07/2016",
+                "version": "v11",
+                "developer": "Electronic Arts",
+                "publish": "Electronic Arts"
+            },
+            "updateUp": "09/09/2019",
+            "description": {
+                "numberOne": "Lối chơi của Harry Potter 2 vay mượn rất nhiều từ trường phái phiêu lưu Zelda, nhưng sự hấp dẫn của việc đóng vai một cậu bé phù thủy ở Hogwarts vẫn giữ được phần thưởng riêng của nó. Giống như bộ phim dựa trên, Harry Potter 2 đầy sức hút, các nhân vật đầy màu sắc và sự vui nhộn đơn giản. Đây là một cuộc phiêu lưu hành động vẫn chủ yếu dành cho trẻ em, với độ khó dễ dàng phù hợp, đồng thời cũng có rất nhiều cải tiến về cách điều khiển và lối chơi khiến nó dễ chơi hơn trò chơi trước.",
+                "numberTwo": "Một trò chơi phiêu lưu tuyến tính, nhiệm vụ của bạn sẽ thay đổi mỗi ngày và chúng bao gồm từ việc hoàn thành các khóa học vượt chướng ngại vật cho đến chơi trong các trận Quidditch. Hệ thống phép thuật rất đơn giản - mặc dù bạn cần phải hoàn thành một minigame được trích xuất trực tiếp từ Guitar Hero để mở khóa các phép thuật mới, khi đã học được, bạn chỉ cần nhấn giữ nút chuột để nhắm cây đũa phép của bạn và thả nó ra để thi triển. Tuy nhiên, hệ thống đơn giản này không để lại nhiều chỗ cho bất kỳ sự sáng tạo nào, vì mọi thứ trong trò chơi đều có phép thuật được chỉ định riêng sẽ tự động kích hoạt khi bạn di chuột qua nó.",
+                "numberThree": "Điều này nghe có vẻ đơn giản, nhưng thực sự trò chơi thiên về giải đố hơn là chiến đấu. Ngay cả khi quái vật được sử dụng làm chướng ngại vật, chúng hoạt động như một vật thể giải đố hơn là mối đe dọa thực sự (ví dụ, một thủ thuật phổ biến là làm choáng kẻ thù và đẩy chúng qua các tấm áp suất để mở khóa cửa). Một chút khác của trò chơi là nền tảng, cũng dễ nắm bắt. Có lẽ một lý do tại sao trò chơi chơi dễ dàng như vậy là nhờ vào camera và điều khiển được nâng cấp, cả hai đều tốt hơn so với trò chơi đầu tiên. Giờ đây, bạn có thể lướt qua, nhảy và nhìn xung quanh mà không có bất kỳ hạn chế nào.",
+                "numberFour": "Các trận đấu Quidditch cũng đã được thay đổi - nó được chơi trên cán chổi và nó hơi giống bóng rổ vì bạn phải lấy bóng qua một cái vòng. Tuy nhiên, có một quả bóng khác mà đội đối phương dùng gậy đánh vào để “gài” cầu thủ với quả bóng và khiến anh ta làm rơi nó. Cuối cùng, có một người chơi có nhiệm vụ duy nhất là bắt được một quả bóng vàng nhỏ bé gọi là Snitch, trị giá 150 điểm. Đây là công việc của Harry.",
+                "numberFive": "16 Một trong những lý do khiến Harry Potter 2 trở nên thú vị là do tất cả những thứ bạn có thể làm. Mặc dù cốt lõi là tuyến tính, nhưng luôn có một chút gì đó khác biệt và mới mẻ xung quanh. Đầu tiên, bạn sẽ đi qua một hầm ngục, sau đó bạn chơi Quidditch, sau đó bạn sẽ nhận được một chiếc áo choàng tàng hình tiện lợi mà bạn phải sử dụng để lẻn xung quanh. Giữa những cuộc phiêu lưu này, bạn có thể khám phá Hogwarts, tìm rương bí mật, thu thập thẻ phù thủy hoặc chỉ trò chuyện với những đứa trẻ phù thủy khác. Tất cả những điều hay ho, thú vị đơn giản chắc chắn sẽ thu hút những người hâm mộ của bộ phim và bộ sách."
+            },
+            "minimum":{
+                "os": "WinXP",
+                "processor": "Pentium III 500 MHz",
+                "memory": "128 MB RAM",
+                "graphics": "none",
+                "directX:": "Version 10",
+                "storage": "500 MB available space"
+            },
+            "recommended":{
+                "os1": "WinXP",
+                "processor1": "Pentium III 500 MHz",
+                "memory1": "1 GB RAM",
+                "graphics1":"none",
+                "directX1":"Version 10",
+                "storage1": "1 GB available space"
+            },
+            "category":[
+                "Hành động","Phiêu Lưu","Giải đố - Trí Tuệ"
+            ],
+            "view": 0,
+            "link":{
+                "googleDrive": "https://docs.google.com/uc?id=0Bzh0mp7WD73_Nm5XVXhGal9qYUk&e=776518&fbclid=IwAR1qYzbGc01EoO6zOAwYtOUc7waGgxboysxmQ6X2JMDLIHTGaYCNJK2Bq8o"
+            }
+        },
+        {
+            "name": "Half Life 2",
+            "NamePage": "haftlife2",
+            "imageBackGournd": "https://i.pinimg.com/originals/9f/81/d4/9f81d4305b29b4a1ff67b4f8a414569d.jpg",
+            "imageBackgourndGames": "https://vngame.tv/wp-content/uploads/2017/12/1-doug-lombardi-talks-about-episodic-content-2-1467174166793-700x400.jpg", 
+            "imageOne": "https://steamcdn-a.akamaihd.net/steam/apps/220/0000001864.1920x1080.jpg?t=1591063154",
+            "imageTwo": "https://cdn.mos.cms.futurecdn.net/WpgacELBhjuyEE9mk4ey6c-1200-80.jpg",
+            "imageThree": "https://trainghiemso.vn/wp-content/uploads/2017/11/half-life-2-9-800x500.jpg",
+            "detail":{
+                "date": "16/11/2004",
+                "update": "16/11/2004",
+                "version": "v11",
+                "developer": "Valve",
+                "publish": "Valve"
+            },
+            "updateUp": "2/2/2020",
+            "description": {
+                "numberOne": "Half-Life 2 là một trò chơi bắn súng góc nhìn thứ nhất, phiên bản thứ hai trong tựa game Half-Life dài hơi mà tới giờ vẫn chưa rõ hồi kết. Kế nhiệm phiên bản đầu, người chơi sẽ được tiếp tục cuộc hành trình của Gordon Freeman. Nhiều năm sau Sự Cố Black Mesa, Trái Đất đã bị xâm lược bởi Combine, một đế quốc rộng lớn trải dài trên nhiều vũ trụ song song, và anh chàng tiến sĩ vật lý lại tiếp tục hành trình giải cứu nhân loại của mình.",
+                "numberTwo": "1998. HALF-LIFE gây sốc cho ngành công nghiệp game với sự kết hợp giữa hành động dồn dập và cách kể chuyện nhập vai liên tục. Tựa game đầu tay của Valve đã giành được hơn 50 giải thưởng game của năm và được PC Gamer vinh danh là Game PC hay nhất từ ​​trước đến nay, đồng thời ra mắt nhượng quyền thương mại với hơn tám triệu bản bán lẻ trên toàn thế giới.",
+                "numberThree": "HIỆN NAY. Bằng cách lấy sự hồi hộp, thách thức và phụ trách nội tạng của bản gốc, đồng thời bổ sung tính hiện thực và phản ứng mới đáng kinh ngạc, Half-Life 2 mở ra cánh cửa đến một thế giới nơi sự hiện diện của người chơi ảnh hưởng đến mọi thứ xung quanh họ, từ môi trường vật chất đến hành vi thậm chí là cảm xúc của cả bạn và thù",
+                "numberFour": "Người chơi một lần nữa nhặt chiếc xà beng của nhà khoa học nghiên cứu Gordon Freeman, người thấy mình đang ở trên một Trái đất bị nhiễm độc của người ngoài hành tinh bị nhặt về tận xương, tài nguyên cạn kiệt, dân số suy giảm. Freeman được đẩy vào vai trò không thể tuyệt vời hơn là giải cứu thế giới khỏi sai lầm mà anh ta đã gây ra ở Black Mesa. Và rất nhiều người anh ấy quan tâm đang trông cậy vào anh ấy.",
+                "numberFive": "The intense, real-time gameplay of Half-Life 2 is made possible only by Source®, Valve's new proprietary engine technology. Source provides major enhancements in"
+            },
+            "minimum":{
+                "os": "Windows 7, Vista, XP",
+                "processor": " 1.7 Ghz",
+                "memory": "512 MB RAM",
+                "graphics": "DirectX 8.1 level Graphics Card (requires support for SSE)",
+                "directX:": "Version 9.0c",
+                "storage": " 6500 MB available space"
+            },
+            "recommended":{
+                "os1": "Windows 7, Vista, XP",
+                "processor1": " 1.7 Ghz",
+                "memory1": " 512 MB RAM",
+                "graphics1":"DirectX 8.1 level Graphics Card (requires support for SSE)",
+                "directX1":"Version 9.0c",
+                "storage1": "6.5 GB available space"
+            },
+            "category":[
+                "Hành động","Bắn súng góc nhìn thứ nhất","Phiêu lưu"
+            ],
+            "view": 0,
+            "link":{
+                "googleDrive": "https://docs.google.com/uc?id=0B0U0T3XR4AncUmkxb253dzNsYnc&e=776518&fbclid=IwAR2ae8wwFsPrEXAk_xb8T_62h2pSskrItXbAgsOaoragnhjoEV1-U5jKMCA"
+            }
+        },
+        {
+            "name": "Batman arkham asylum goty",
+            "NamePage": "BatmanArkhamAsylumGoty",
+            "imageBackGournd": "https://images3.alphacoders.com/109/thumb-1920-109619.jpg",
+            "imageBackgourndGames": "https://steamcdn-a.akamaihd.net/steam/apps/35140/capsule_616x353.jpg?t=1569358035", 
+            "imageOne": "https://i.ytimg.com/vi/6NSK-GQjuDM/maxresdefault.jpg",
+            "imageTwo": "https://steamcdn-a.akamaihd.net/steam/apps/35140/ss_312e1fccf930e7aad2a531727c4280f05a22c73c.1920x1080.jpg?t=1569358035",
+            "imageThree": "https://steamcdn-a.akamaihd.net/steam/apps/35140/ss_7c61451755b28ffd5254a22aa9a43003d9896b89.1920x1080.jpg?t=1569358035",
+            "detail":{
+                "date": "18/10/2011",
+                "update": "18/10/2011",
+                "version": "v11",
+                "developer": "Rocksteady Studios, WB Games Montréal",
+                "publish": "Rocksteady Studios, WB Games Montréal"
+            },
+            "updateUp": "8/9/2020",
+            "description": {
+                "numberOne": "Batman Arkham Asylum cho thấy chủ đề siêu anh hùng lên game không chỉ đơn thuần là ăn theo các tác phẩm truyện tranh hay phim ảnh, mà hoàn toàn có thể tạo được một chỗ đứng riêng với lối chơi cực kỳ sâu sắc và cốt truyên hấp dẫn lôi cuốn từ đầu đến cuối",
+                "numberTwo": "Ngoài một số tựa game chủ đề siêu anh hùng như X-Men Legends, Spider-Man, Marvel Ultimate Alliance có chất lượng khá tốt. Đa số những game về siêu anh hùng từ trước đến nay đều có lối chơi và đồ họa vào hàng trung bình và thường chỉ phát hành ăn theo những bộ phim điện ảnh công chiếu cùng thời điểm. Tựa game siêu anh hùng gần đây nhất nói về “người sói” Wolverine mang tên X-Men Origins tuy có dựa vào một số sự kiện trong phim nhưng chất lượng cũng vào hàng khá, và điều này đã tạo nên một sự kỳ vọng cho tựa game siêu anh hùng tiếp theo do Rocksteady Studios phát triển mang tên Batman Arkham Asylum. Không phụ lòng mong đợi của các fan, Người Dơi tái xuất với màn trình diễn vô cùng ấn tượng ở Batman: Arkham Asylum với lối chơi đa dạng và sâu sắc bên cạnh một cốt truyện nguyên bản cực kỳ hấp dẫn.",
+                "numberThree": "Ấn tượng đầu tiên mà Batman Arkham Asylum (BAA) tạo nên là cốt truyện của trò chơi, vốn được viết bởi nhà biên kịch kì cựu của series Batman là Paul Dini và không hề “ăn theo” bất cứ tác phẩm truyện tranh hay điện ảnh nào về Người Dơi trước đây. Với một kịch bản hoàn toàn mới, bệnh viện tâm thần quen thuộc trong bộ truyện Batman là Arkham đã được đưa vào game như khu vực chính, nơi Batman sẽ phải đối đấu với đối thủ truyền kiếp Joker (tên hề) và kế hoạch điên cuồng của hắn. Mở đầu trò chơi, bạn sẽ vào vai Batman bắt giữ và hộ tống Joker vào Arkham, nhưng anh chàng không ngờ đây chỉ là một phần trong kế hoạch của Joker muốn biến cả thành phố Gotham trở nên hỗn loạn với loại hóa chất kích thích sức mạnh mới mang tên Titan. Joker thoát khỏi vòng kiểm soát của Batman và cai ngục, phong tỏa toàn bộ nhà tù Arkham với sự trợ giúp của những tên thuộc hạ đông đảo “nằm vùng” tại đây. Trong cuộc phiêu lưu mới chống Joker, Batman sẽ gặp lại những đối thủ cũ khá quen thuộc như Bane, Scarecrow, Killer Croc, Harley Quinn, Poison Ivy... Khâu lồng tiếng của BAA cũng được thực hiện bởi những diễn viên “cựu binh” của series Batman như Kevin Conroy vào vai Batman, Mark Hamill vào vai Joker và Arleen Sorkin vào vai Harley Quinn. Điều này càng làm cảm giác phiêu lưu trong game trở nên thật hơn và tạo được hiệu ứng điện ảnh rõ nét.",
+                "numberFour": "Batman Arkham Asylum là một trong những tựa game siêu anh hùng hiếm hoi đạt được thành công vang dội. Điều mà trò chơi thể hiện xuất sắc và nổi bật hơn những người tiền nhiệm là cốt truyện lôi cuốn và cách chơi đặc biệt sâu sắc. Bạn có thể thực sự hóa thân vào Batman theo đúng phong cách lạnh lùng của anh chàng này, và cho dù chiến đấu theo phong cách trực diện hay bí mật đều rất hiệu quả. Những khuyết điểm đáng tiếc của trò chơi có thể kể đến là các trận đấu trùm khá ngắn ngủi và không có nhiều điểm nhấn, ngoại trừ “trùm cuối”. Ngoài ra, trò chơi cũng yêu cầu việc di chuyển qua lại giữa các khu vực khá nhiều lần nên việc làm nhiệm vụ tỏ ra khá nhàm chán. Tuy nhiên, những khiếm khuyết này cũng không thể phủ nhận những ưu điểm khá lớn về cách chơi nói chung của Batman Arkham Asylum. Đây là tựa game hành động xuất sắc về đề tài siêu anh hùng, cho dù bạn là fan của Batman hay chỉ là fan của thể loại hành động phiêu lưu thuần túy. ",
+                "numberFive": "Nguồn: pcworld.com.vn"
+            },
+            "minimum":{
+                "os": "Windows 7 SP1, Windows 8.1, Windows 10 (64-bit version)",
+                "processor": "3Ghz Intel or AMD or any Dual Core",
+                "memory": "2 GB RAM",
+                "graphics": "PCI Express SM3 NVidia 6600/ ATI 1300",
+                "directX:": "Version 9.0",
+                "storage": "8 GB available space"
+            },
+            "recommended":{
+                "os1": "Windows 7 SP1, Windows 8.1, Windows 10 (64-bit version)",
+                "processor1": "3Ghz Intel or AMD or any Dual Core",
+                "memory1": "2 GB RAM",
+                "graphics1": "PCI Express SM3 NVidia 6600/ ATI 1300",
+                "directX1": "Version 9.0",
+                "storage1": "8 GB available space"
+            },
+            "category":[
+                "Hành động","Giải đố - trí tuệ","Phiêu lưu"
+            ],
+            "view": 0,
+            "link":{
+                "googleDrive": "https://docs.google.com/u/0/uc?export=download&confirm=ax7H&id=1gK2I3ZQjC98Gi2STd8oW9z7HOlaojmjE&fbclid=IwAR14qFRmu6gTY4kleDc6-AvAc843gDx057iBtiIkrX-G5XzlElMeH4BnuoM"
+            }
+        },
+        {
+            "name": "Harry Potter & The Sorcerer's Stone",
+            "NamePage": "HarryPotter&TheSorcerersStone",
+            "imageBackGournd": "https://images.squarespace-cdn.com/content/5c71c7d8aadd342945360ba1/1576935093208-8R9YCYA1THIIDDZTZZWH/Harry+Potter+and+the+Philosopher%27s+Stone+Header+w+Logo.jpg?format=1500w&content-type=image%2Fjpeg",
+            "imageBackgourndGames": "https://images-na.ssl-images-amazon.com/images/I/71mT3xlU4CL._AC_SL1000_.jpg", 
+            "imageOne": "https://i.pinimg.com/originals/7f/be/f2/7fbef2e5ffc8df22291b4a7d5169bf6a.jpg",
+            "imageTwo": "https://www.mobygames.com/images/promo/original/1530970602-782794085.jpg",
+            "imageThree": "https://www.fdossena.com/hp1/coverhq.jpg",
+            "detail":{
+                "date": "2001",
+                "update": "07/07/2016",
+                "version": "v11",
+                "developer": "KnowWonder, Argonaut Games,....",
+                "publish": "Electronic Arts, Griptonite Games"
+            },
+            "updateUp": "15/11/2020",
+            "description": {
+                "numberOne": "Bạn từng “say như điếu đổ” quyển tiểu thuyết Harry Potter của J.K Rowling,nữ nhà văn lừng danh thế giới? Bạn từng mơ ước được thỏa thích bay cùng câychổi thần trong những trận đấu Quiddict nảy lửa giữa các nhà Gryffindor, Hufflepuff,Ravenclaw, Slytherin? Thế thì,Harry Potter and the Sorcerer's Stone  ( Harry Pottervà hòn đá phù thủy) chính là lựa chọn dành cho bạn.",
+                "numberTwo": "Được đại gia EA phát hành nên bạn chắc chắn chẳng phải lo lắng về chất lượng của Harry Potter and the Sorcerer's Stone  dù tựa game này được một nhà phát triển không mấy danh tiếng thực hiện. Bởi lẽ, hầu hết các sản phẩm “qua tay” EA đều trải qua những quá trình đánh giá và kiểm định gắt gao trước khi đến tayngười chơi.",
+                "numberThree": "Dù ra mắt đã khá lâu (khoảng cuối năm 2001) nhưng Harry Potter and the Sorcerer's Stone có gameplay khá lôi cuốn và hấp dẫn với cơ chế điều khiển tương đối dễ dàng. Bên cạnh đó, nhà phát triển còn tận tình hướng dẫn người chơi bằng hàng loạt hình ảnh minh họa trực quan, góp phần mang Harry Potter and the Sorcerer's Stone đến gần hơn với phần đông game thủ. ",
+                "numberFour": "Harry Potter and the Sorcerer's Stone  thuộc thể loại phiêu lưu kết hợp hành động và giải đố. Trong game, bạn sẽ thực thi các nhiệm vụ được giao để có thể đạt đến cột mốc cuối cùng. Điều này đòi hỏi người chơi phải tương tác khá nhiều với các NPC nhằm tìm ra manh mối. Đến với Harry Potter and the Sorcerer's Stone, ngoài việc chủ động khám phá, game thủ còn phải phát huy khả năng chiến đấu của mình với hệ thống phép thuật được mô phỏng giống hệt nguyên tác. Ở đó, bạn sẽ phải nhuần nhuyễn các “tuyệt chiêu” như: nhấc bổng kẻ thù, làm choáng,….mới mong sống sót. Nghe thì có vẻ ghê ghớm nhưng thật sự, hệ thống nhiệm vụ trong ",
+                "numberFive": "Nguồn: https://taigame.org/game/harry-potter-and-the-sorcerers-stone"
+            },
+            "minimum":{
+                "os": "WinXP",
+                "processor": "Pentium III 500 MHz",
+                "memory": "128 MB RAM",
+                "graphics": "none",
+                "directX:": "Version 10",
+                "storage": "500 MB available space"
+            },
+            "recommended":{
+                "os1": "WinXP",
+                "processor1": "Pentium III 500 MHz",
+                "memory1": "128 MB RAM",
+                "graphics1": "none",
+                "directX1": "Version 10",
+                "storage1": "500 MB available space"
+            },
+            "category":[
+                "Hành động","Phiêu Lưu","Giải đố - Trí Tuệ"
+            ],
+            "view": 0,
+            "link":{
+                "googleDrive": "https://docs.google.com/u/0/uc?export=download&confirm=ax7H&id=1gK2I3ZQjC98Gi2STd8oW9z7HOlaojmjE&fbclid=IwAR14qFRmu6gTY4kleDc6-AvAc843gDx057iBtiIkrX-G5XzlElMeH4BnuoM"
+            }
+        },
+        {
+            "name": "WARCRAFT III",
+            "NamePage": "WARCRAFTIII",
+            "imageBackGournd": "https://wow.zamimg.com/uploads/blog/images/17877-warcraft-iii-reforged-story-campaign-backgrounds.jpg",
+            "imageBackgourndGames": "https://khiphach.vn/wp-content/uploads/2018/05/download-warcraft-3-frozen-throne-full.jpg", 
+            "imageOne": "https://khiphach.vn/wp-content/uploads/2018/05/map-xay-nha-trong-warcraft-3.jpg",
+            "imageTwo": "https://khiphach.vn/wp-content/uploads/2018/05/tai-warcraft-3-frozen-throne-full.jpg",
+            "imageThree": "https://khiphach.vn/wp-content/uploads/2018/05/map-dday-trong-warcraft-3.jpg",
+            "detail":{
+                "date": "2001",
+                "update": "07/07/2016",
+                "version": "v11",
+                "developer": "KnowWonder, Argonaut Games,....",
+                "publish": "Electronic Arts, Griptonite Games"
+            },
+            "updateUp": "20/11/2020",
+            "description": {
+                "numberOne": "Warcraft III là một game chiến lược thời gian thực được đánh giá rất cao, được phát hành vào năm 2002.Đây là một game độc ​​lập không phải là một gói mở rộng và nó là game thứ ba được đặt trong vũ trụ Warcraft hư cấu.",
+                "numberTwo": "Warcraft 3 Frozen Throne 2020 xoay quanh trận chiến giữa 4 chủng tộc chiến binh: chủng tộc người; chủng tộc cây; chủng tộc quái vật; chủng tộc phù thuỷ.",
+                "numberThree": "Có những đồng bằng rộng lớn và những cánh đồng với sông, núi và vách đá ở Azeroth. Các trường này được hiển thị trên bản đồ. và trong chế độ chiến dịch, bản đồ này được ẩn đằng sau mặt nạ đen sẽ bị xóa khỏi một khu vực cụ thể đã được người chơi khám phá. Các khu vực chưa được khám phá được bao phủ bởi sương mù của chiến tranh. Và có ba tài nguyên mà bạn phải quản lý. Nó bao gồm Gỗ, Vàng và Thực phẩm. Hình ảnh khá ấn tượng và được khen ngợi.",
+                "numberFour": "Game xây dựng bối cảnh rộng lớn với các chiến trường khốc liệt, các công trình xây dựng trong không gian game 2D trung thực. Cũng một thời huyền thoại không thể bỏ qua như các game Half Life, Đế chế, Diablo II vẫn đang cực hot từ xưa tới nay . À quên còn cả tựa game chiến thuật huyền thoại Heroes 3 nữa.",
+                "numberFive": "Nguồn: https://icongnghe.com/tai-game-warcraft-ban-chuan/"
+            },
+            "minimum":{
+                "os": "Windows 98/ME/2000/XP/7/8/10",
+                "processor": "400 MHz",
+                "memory": "128 MB RAM",
+                "graphics": "Nvidia or AMD ATI 3D Graphics Card",
+                "directX:": "Version 8.1",
+                "storage": "4 GB available space"
+            },
+            "recommended":{
+                "os1": "Windows 98/ME/2000/XP/7/8/10",
+                "processor1": "400 MHz",
+                "memory1": "128 MB RAM",
+                "graphics1": "Nvidia or AMD ATI 3D Graphics Card",
+                "directX1": "Version 8.1",
+                "storage1": "4 GB available space"
+            },
+            "category":[
+                "Hành động","Phiêu Lưu","Giải đố - Trí Tuệ"
+            ],
+            "view": 0,
+            "link":{
+                "googleDrive": "https://docs.google.com/file/d/0B5LI8HM-m921M3dpSTFGc09TaFU/edit"
+            }
+        }
+    ]
+}

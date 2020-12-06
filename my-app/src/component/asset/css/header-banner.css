@@ -1,0 +1,327 @@
+.banner-component{
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    background-position: center center;
+    background-size: cover;
+    text-align: center;
+    color: #FFFFFF;
+    position: relative;
+}
+.banner-image img{
+    width: 100%;
+}
+.header-component{
+    padding: 2.308rem 0 1.154rem;
+    z-index: 100;
+}
+.header-container-image{
+    position: absolute;
+    bottom: 50px;
+}
+.header{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background: transparent;
+    z-index: 50;
+}
+.header-user-box{
+    display: inline-block;
+    padding: 0 0.7692rem;
+    border-radius: 1.9230rem;
+    background-color: #ffc311;
+    right: 0px;
+    top: -10px;
+}
+.header-popup{
+    color: #FFFFFF;
+    padding: 0.3846rem 0.7692rem;
+    display: inline-block;
+    font-size: 0.7692rem;
+    cursor: pointer;
+    text-decoration: none;
+}
+.header-user-box a:first-child{
+    border-right: 1px solid rgba(0, 0, 0, 0.08);
+    border-left: 0;
+}
+.header-element{
+    width: 100%;
+    height: 33.9px;
+    display: block;
+}
+.navbar{
+    width: auto;
+    height: auto;
+    display: block;
+}
+.nav-item{
+    margin-right: 10px;
+}
+.nav-item:last-child{
+    margin-right: 0px;
+}
+.nav-link{
+    padding: 15px;
+    color: #FFFFFF;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+}
+.set-size{
+    width: auto;
+    display: inline-block;
+}
+.dropdown-megamenu{
+    padding: 30px;
+    top: 45px;
+    left: -500px;
+    width: auto;
+    height: auto;
+    background-color: whitesmoke;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.2s linear;
+    visibility: hidden;
+    border-radius: 0px 0px 10px 10px;
+}
+.games-model{
+    display: block;
+    width: auto;
+    height: auto;
+}
+.dropdown-menu-game:hover .dropdown-megamenu{
+    display: block;
+    visibility: visible;
+    opacity: 1;
+}
+.games-item{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: 600px;
+    height: 100%;
+}
+.games-column{
+    width: auto;
+    height: auto;
+    display: inline-block;
+}
+.games-column ul li a{
+    padding: 0px 10px;
+    color: black;
+    font-size: 15px;
+    line-height: 36px;
+}
+.games-column ul li:first-child a{
+    font-weight: 800;
+    font-size: 17px;
+    padding: 10px 10px 15px 10px;
+}
+.games-item ul li{
+    display: block;
+}
+.games-item ul li:hover a{
+    color: rgb(42, 42, 251);
+}
+.nav-item:hover .nav-link{
+    color: #ffc311;
+}
+.games-column ul li{
+    text-align: left;
+}
+.banner-opacity{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #000000;
+    opacity: 0.4;
+}
+.wrap{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-position: center center;
+    background-size: cover;
+    padding: 11.54rem 0;
+    text-align: center;
+    color: #FFFFFF;
+    align-items: center;
+    display: flex;
+}
+.wrap .inner{
+    max-width: 59.23rem;
+    position: relative;
+    z-index: 3;
+    margin-left: auto;
+    margin-right: auto;
+}
+.wrap .title{
+    font-size: 4rem;
+    line-height: 6.154rem;
+    font-weight: 800;
+    margin-bottom: 2.308rem;
+    text-transform: uppercase;
+}
+.wrap .describe-game{
+    margin-bottom: 3.231rem;
+    font-size: 1.154rem;
+}
+.button-see-game{
+    display: inline-block;
+    margin-right: 3.462rem;
+}
+.button-see-game a{
+    font-size: 1.077rem;
+    border-bottom: 0.1538rem solid #FFFFFF;
+    font-weight: 600;
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 0.7692rem 1.538rem;
+    color: #ffffff;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.button-see-game a:hover{
+    color: #ffc311;
+    border-color: #ffc311;
+}
+.title, .describe-game{
+    user-select: none; /* supported by Chrome and Opera */
+   -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+   -moz-user-select: none; /* Firefox */
+   -ms-user-select: none; /* Internet Explorer/Edge */
+}
+.header-userName{
+    padding: 5px 18px 20px 15px;
+}
+.header-userName p{
+    margin: 0px;
+}
+.delete-cookie{
+    color: #FFF;
+    font-size: 12px;
+    position: absolute;
+    right: 30px;
+}
+.hader-mobile{
+    visibility: hidden;
+    display: none;
+}
+.in-game{
+    height: 60vh;
+}
+.page-games{
+    width: 100%;
+    height: 170px;
+    font-family: Lato,sans-serif;
+    background: #df83f1;
+    background: linear-gradient(90deg,#df83f1,#82279f 35%,#53cfe0);
+    background-size: 400% 400%;
+    animation: AnimationName 29s ease infinite;
+    margin: 0px;
+}
+/* css định nghĩa*/
+.container{
+    width: auto;
+    height: auto;
+    margin: 0px 13%;
+}
+.dis-flex{
+    display: flex;
+}
+.relative{
+    position: relative;
+}
+.absolute{
+    position: absolute;
+}
+.align-items{
+    align-items:center !important;
+}
+.justify-content{
+    justify-content: space-between !important;
+}
+.navbar{
+    padding: 0;
+    margin: 0;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    width: auto;
+    height: auto;
+}
+li{
+    width: auto;
+    height: auto;
+    display: inline-block;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+.float-left{
+    float: left;
+}
+img{
+    margin: 0 !important;
+}
+/*này chỉ cần sử dụng lại thôi*/
+/*reponesive*/
+@media (max-width: 1200px) {
+    .hader-mobile{
+        background: #FFF;
+        width: 100%;
+        height: 50px;
+    }
+    .nav-mobile{
+        width: 100%;
+        height: 100%;
+    }
+    .dis-mobile-flex{
+        display: flex;
+        align-items: center;
+    }
+    .logo-mobile{
+        width: auto;
+        height: auto;
+        display: inline-block;
+    }
+    .menu-mobile .menu-bar img{
+        width: 25px;
+        height: 25px;
+        cursor: pointer;
+    }
+    .pos-absolute{
+        position: absolute;
+        right: 0px;
+    }
+    .pos-relative{
+        position: relative;
+    }
+    .hader-mobile{
+        display: block;
+        visibility: visible;
+    }
+    .dis-flex{
+        display: none !important;
+    }
+}
+
+@media (max-width: 790px) {
+    .wrap .title{
+        font-size: 3rem;
+        line-height: 4rem;
+        font-weight: 600;
+        margin-bottom: 2rem;
+        text-transform: uppercase;
+    }
+    .wrap .describe-game{
+        margin-bottom: 3rem;
+        font-size: 1rem;
+    }
+}
