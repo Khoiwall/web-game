@@ -15,7 +15,7 @@ var GameSchema = new mongoose.Schema({
         version: String,
         developer: String,
         publish: String,
-    updateUp:String,
+    updateUp:Date,
     description: Object,
         numberOne: String,
         numberTwo: String,
@@ -39,6 +39,7 @@ var GameSchema = new mongoose.Schema({
     category: Array,
     link: Object,
         googleDrive: String,
+    view: Number,
     comment: Array,
     commenter:String,
     contentComment: String

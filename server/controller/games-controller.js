@@ -1,5 +1,5 @@
 var gamedb = require('../moogodb/gamedb.js')
-var userController = require('./user-controller.js')
+var gameSearch = []
 
 module.exports.ApiListGame = async function(req,res){
     var listGame = await gamedb.find();
@@ -60,5 +60,19 @@ module.exports.AddGame = async function(req,res){
         "comment": []
     }]
     await gamedb.insertMany(game)
-    res.render('admin_game/games')
+    res.redirect('http://localhost:3000/admin/create-game')
+}
+module.exports.sreachGame = async function(req,res){
+    q = req.query.NameGame
+    var games = await gamedb.find()
+    if(typeof q === 'string')
+    {
+        gameSearch = games.filter(item =>{
+            return item.name.toLowerCase().indexOf(q.toLowerCase()) !== -1;
+        })
+    }
+    res.redirect('http://localhost:3000/games/search?NameGame=' + q)
+}
+module.exports.ApiSearchGame = function(req,res){
+    res.json(gameSearch)
 }

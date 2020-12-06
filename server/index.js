@@ -1,5 +1,4 @@
 require('dotenv').config() // call value envir
-
 const express = require('express')
 var cookieSession = require('cookie-session')
 var pug = require('pug')
@@ -14,7 +13,6 @@ var gamesRouter = require('../server/Router/games-Router.js')
 var userRouter = require('../server/Router/user-Router.js')
 
 mongoose.connect(process.env.MoGOURL);
-
 app.use(cookieParser(process.env.login))
 app.use(cookieSession({
   name:'userId',
