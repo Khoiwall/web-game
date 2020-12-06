@@ -94,7 +94,7 @@
 .layout-list-games{
     padding: 20px 0px;
     display: grid;
-    grid-template-columns: auto auto auto auto auto;
+    grid-template-columns: 250px 250px 250px 250px;
 }
 .game-review-item .figure{
     width: 100%;
@@ -112,7 +112,6 @@
 }
 .game-review-item{
     padding: 5px;
-    width: 260px;
 }
 .game-review-item a{
     width: 100%;
@@ -147,14 +146,14 @@
     .layout-list-games{
         padding: 20px 0px;
         display: grid;
-        grid-template-columns: auto auto auto;
+        grid-template-columns: 250px 250px 250px;
     }
 }
 @media (max-width: 992px) {
     .layout-list-games{
         padding: 20px 0px;
         display: grid;
-        grid-template-columns: auto auto;
+        grid-template-columns: 320px 320px;
     }
 }
 @media (max-width: 770px) {

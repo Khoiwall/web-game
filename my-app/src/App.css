@@ -6,3 +6,9 @@ body{
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
 }
+.game-page{
+    background: rgba(223, 221, 221, 0.7);
+}
+p{
+    color: black;
+}

@@ -100,7 +100,8 @@
 }
 .games-item{
     display: grid;
-    grid-template-columns: 210px 130px 100px 121px 161px;
+    grid-template-columns: auto auto auto auto;
+    width: 600px;
     height: 100%;
 }
 .games-column{
@@ -212,6 +213,16 @@
 }
 .in-game{
     height: 60vh;
+}
+.page-games{
+    width: 100%;
+    height: 170px;
+    font-family: Lato,sans-serif;
+    background: #df83f1;
+    background: linear-gradient(90deg,#df83f1,#82279f 35%,#53cfe0);
+    background-size: 400% 400%;
+    animation: AnimationName 29s ease infinite;
+    margin: 0px;
 }
 /* css định nghĩa*/
 .container{

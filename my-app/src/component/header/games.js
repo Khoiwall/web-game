@@ -70,14 +70,6 @@ class Games extends Component{
                                 <li><Link title="action game" to="/kindgames/different-games/gog-games">GOG</Link></li>
                             </ul>
                         </div>
-                        <div className="games-column">
-                            <ul>
-                                <li><Link title="action game" to="/kindgames/action-game/arrange">Sắp xếp</Link></li>
-                                <li><Link title="action game" to="/kindgames/action-game/arrange/new-games">Game mới</Link></li>
-                                <li><Link title="action game" to="/kindgames/action-game/arrange/hot-games">Xem nhiều nhất</Link></li>
-                                <li><Link title="action game" to="/kindgames/action-game/arrange/dow-games">download nhiều nhất</Link></li>
-                            </ul>
-                        </div>
                     </div>
                 </div>
             </div>

@@ -5,6 +5,7 @@
     grid-template-columns: 2fr 1fr;
     background: #ffffff;
     color: #777777;
+    background: rgba(223, 221, 221, 0.7);
 }
 .intro .product-image{
     padding-left: 100px;
@@ -19,7 +20,7 @@
     width: 360px;
     height: 503.800px;
     text-align: left;
-
+    background-color: #ffffff;
     margin-bottom: 3.462rem;
     box-shadow: 0 0 3rem rgba(0, 0, 0, 0.10);
 }

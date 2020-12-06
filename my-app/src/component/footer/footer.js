@@ -54,9 +54,9 @@ class Footer extends Component{
                                     <p>Theo dõi các mạng xã hội để có được những thông tin mới nhất</p>
                                     <ul>
                                         <li><a href="https://www.facebook.com/" target="_blank">Facebook</a></li>
-                                        <li>Facebook</li>
-                                        <li>Facebook</li>
-                                        <li>Facebook</li>
+                                        <li><a href="https://www.facebook.com/" target="_blank">Facebook</a></li>
+                                        <li><a href="https://www.facebook.com/" target="_blank">Facebook</a></li>
+                                        <li><a href="https://www.facebook.com/" target="_blank">Facebook</a></li>
                                     </ul>
                                 </div>
                             </div>

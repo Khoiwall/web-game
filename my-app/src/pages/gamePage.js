@@ -36,7 +36,7 @@ componentWillMount(){
     const {name} = this.state
     const {game} = this.props
     return (
-      <div className="Game page">
+      <div className="game-page">
         <Helmet>
           <title> {game.name} </title>
         </Helmet>

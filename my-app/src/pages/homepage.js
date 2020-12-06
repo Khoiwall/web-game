@@ -1,13 +1,13 @@
-import React,{Component} from 'react';
-import '../component/asset/css/header-banner.css';
-import Banner from '../component/banner/Banner';
-import Search from '../component/search/search';
+import React,{Component} from 'react'
+import '../component/asset/css/header-banner.css'
+import Banner from '../component/banner/Banner'
+import Search from '../component/search/search'
 import HighlightGame from '../component/content-homepage/highlight-games.js'
 import GameUpdate from '../component/content-homepage/game-update.js'
 import Footer from '../component/footer/footer.js'
 import Loading from '../component/loader/loading.js'
 import NavMobile from '../component/header/nav-mobile'
-import { Helmet } from 'react-helmet';
+import { Helmet } from 'react-helmet'
 import axios from 'axios'
 class HomePage extends Component{
     constructor(props){
@@ -52,6 +52,23 @@ class HomePage extends Component{
             }
             return gameHot
         }
+        function gameUpdates(){
+            var gameUpdate = []
+            var tmp = {}
+            for(var i = 0; i < listGame.length; i++){
+                for (var j = i+1; j < listGame.length; j++){
+                    if (listGame[i].updateUp < listGame[j].updateUp){
+                        tmp = listGame[i]
+                        listGame[i] = listGame[j]
+                        listGame[j] = tmp 
+                    }
+                }
+            }
+            for (var k = 0; k < 4; k++){
+                gameUpdate.push(listGame[k])
+            }
+            return gameUpdate
+        }
         if(listGame.length > 0){
             return(
                 <div className="homepage">
@@ -65,7 +82,7 @@ class HomePage extends Component{
                     </div>
                     <div className="content">
                         <HighlightGame gameHot={gameHighLight()}/>
-                        <GameUpdate/>
+                        <GameUpdate gameUpdate={gameUpdates()}/>
                     </div>
                     <Footer/>
                 </div>
